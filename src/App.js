@@ -1,7 +1,8 @@
 import React from 'react'
 import './App.css'
+import './index.css'
 
-import { Footer, Blog, Possibility, Feautes, WhatGPT3, Header } from './containers';
+import { Footer, Blog, Possibility, Features, WhatGPT3, Header } from './containers';
 import {CTA, Brand, Navbar} from './components';
 
 const App = () => {
@@ -21,3 +22,4 @@ const App = () => {
         </div>
     )
 }
+export default App
